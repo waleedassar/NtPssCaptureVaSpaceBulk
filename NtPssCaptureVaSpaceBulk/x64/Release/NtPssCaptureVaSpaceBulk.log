@@ -1,0 +1,19 @@
+﻿Build started 10/29/2021 10:14:34 PM.
+     1>Project "c:\Users\walied\documents\visual studio 2012\Projects\NtPssCaptureVaSpaceBulk\NtPssCaptureVaSpaceBulk\NtPssCaptureVaSpaceBulk.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\NtPssCaptureVaSpaceBulk.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt NtPssCaptureVaSpaceBulk.cpp
+         NtPssCaptureVaSpaceBulk.cpp
+     1>NtPssCaptureVaSpaceBulk.cpp(49): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(1018) : see declaration of 'wcscat'
+     1>NtPssCaptureVaSpaceBulk.cpp(103): warning C4244: '=' : conversion from 'unsigned __int64' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\walied\documents\visual studio 2012\Projects\NtPssCaptureVaSpaceBulk\x64\Release\NtPssCaptureVaSpaceBulk.exe" /INCREMENTAL:NO /NOLOGO ntdll.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\walied\documents\visual studio 2012\Projects\NtPssCaptureVaSpaceBulk\x64\Release\NtPssCaptureVaSpaceBulk.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\walied\documents\visual studio 2012\Projects\NtPssCaptureVaSpaceBulk\x64\Release\NtPssCaptureVaSpaceBulk.lib" /MACHINE:X64 x64\Release\NtPssCaptureVaSpaceBulk.obj
+         x64\Release\stdafx.obj
+         Generating code
+         Finished generating code
+         NtPssCaptureVaSpaceBulk.vcxproj -> c:\users\walied\documents\visual studio 2012\Projects\NtPssCaptureVaSpaceBulk\x64\Release\NtPssCaptureVaSpaceBulk.exe
+     1>Done Building Project "c:\Users\walied\documents\visual studio 2012\Projects\NtPssCaptureVaSpaceBulk\NtPssCaptureVaSpaceBulk\NtPssCaptureVaSpaceBulk.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.95
